@@ -7,7 +7,7 @@
   TODO BEFORE LAUNCH (owner):
   1. FORMSPREE — create a free form at https://formspree.io, then replace
      PLACEHOLDER_FORM_ID in the <form action="..."> in the #order section.
-  2. STRIPE — create a Payment Link for the $99 Trial Box, replace
+  2. STRIPE — create a Payment Link for the $110 Trial Box, replace
      https://buy.stripe.com/PLACEHOLDER in the #order section, and change
      that button's text to "Pay for Trial Box now".
   3. DOMAIN — after deploying, replace every "https://noirboxco.com.au/"
@@ -23,7 +23,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io https://buy.stripe.com; base-uri 'self'">
 
   <title>Noir Box Co. | Premium Settlement &amp; New Car Gift Boxes Australia</title>
-  <meta name="description" content="Matte-black, gold-foil client gift boxes for property settlements and new car handovers. Branded to your agency or dealership, delivered across Australia.">
+  <meta name="description" content="Matte-black, premium client gift boxes for property settlements and new car handovers. Branded to your agency or dealership, delivered across Australia.">
   <meta name="theme-color" content="#0d0d0d">
 
   <!-- TODO (owner): swap placeholder domain once live -->
@@ -55,12 +55,12 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Noir Box Co.",
-    "description": "Premium branded client gift boxes for real estate agencies, buyers' agencies and car dealerships across Australia. Matte-black, gold-foil settlement and new-car handover gifts on a standing order.",
+    "description": "Premium branded client gift boxes for real estate agencies, buyers' agencies and car dealerships across Australia. Matte-black settlement and new-car handover gifts with embossed detail, on a standing order.",
     "url": "https://noirboxco.com.au/",
     "telephone": "+61419580366",
     "email": "hello@noirboxco.com.au",
     "image": "https://noirboxco.com.au/GiftBox.png",
-    "priceRange": "$89-$149 AUD",
+    "priceRange": "$99-$110 AUD",
     "areaServed": { "@type": "Country", "name": "Australia" }
   }
   </script>
@@ -71,12 +71,12 @@
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "Noir Box — Trial Box",
-    "description": "Matte-black luxury client gift box with gold-foil detail: Casa Blanca premium candle and reed diffuser, mini Freixenet sparkling, Koko Black / Yoko Bakes almond and sea-salt chocolate, personalised welcome card, and optional agency or dealership logo on the lid.",
+    "description": "Matte-black luxury client gift box with embossed detail: premium candle and reed diffuser, mini sparkling wine (alcoholic or non-alcoholic), Koko Black / Yoko Bakes almond and sea-salt chocolate, personalised welcome card, and optional agency or dealership logo on the lid. Box and text colours customisable.",
     "image": "https://noirboxco.com.au/GiftBox.png",
     "brand": { "@type": "Brand", "name": "Noir Box Co." },
     "offers": {
       "@type": "Offer",
-      "price": "99.00",
+      "price": "110.00",
       "priceCurrency": "AUD",
       "availability": "https://schema.org/InStock",
       "url": "https://noirboxco.com.au/#order"
@@ -103,7 +103,7 @@
         "name": "Is there a minimum order?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. The Trial Box is a single box at $99 — order one and see the reaction. Standing Order pricing of $89 per box applies from five boxes per month, and bulk or event orders are quoted individually."
+          "text": "No. The Trial Box is a single box at $110 — order one and see the reaction. Standing Order pricing of $99 per box applies from five boxes per month, and bulk or event orders are quoted individually."
         }
       },
       {
@@ -135,7 +135,7 @@
         "name": "How do standing orders work?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You set a monthly quantity — five boxes or more at $89 per box. We keep your branding and card templates on file, prepare boxes ahead of your settlements or deliveries, and invoice monthly. Adjust or pause anytime; there's no lock-in contract."
+          "text": "You set a monthly quantity — five boxes or more at $99 per box. We keep your branding and card templates on file, prepare boxes ahead of your settlements or deliveries, and invoice monthly. Adjust or pause anytime; there's no lock-in contract."
         }
       }
     ]
@@ -438,7 +438,7 @@
     .pricing { background: var(--black); }
     .pricing-inner { max-width: 1240px; margin: 0 auto; }
     .pricing-note { color: var(--body-on-black); font-size: 0.84rem; margin-top: 18px; }
-    .pricing-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 64px; }
+    .pricing-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 64px; }
     .pricing-card {
       background: var(--black-soft); padding: 46px 32px 40px;
       border: 1px solid rgba(201,168,76,0.12); text-align: left;
@@ -657,7 +657,7 @@
   <div class="hero-inner">
     <p class="hero-eyebrow">Client Gifting · Real Estate &amp; Automotive · Australia</p>
     <h1>Personalised Gift Boxes<br>For Your Valued <em>Clients</em></h1>
-    <p class="hero-tagline"><strong>Matte-black. Gold foil. Your logo on the lid.</strong><br>A branded unboxing moment at settlement or new-car handover — delivered on a standing order, so you never think about gifting again.</p>
+    <p class="hero-tagline"><strong>Matte-black. Embossed detail. Your logo on the lid.</strong><br>A branded unboxing moment at settlement or new-car handover — delivered on a standing order, so you never think about gifting again.</p>
     <div class="hero-buttons">
       <a href="#order" class="btn-primary">Order a Trial Box</a>
       <a href="#product" class="btn-outline">See What's Inside</a>
@@ -686,7 +686,7 @@
     <div class="product-grid">
 
       <div class="box-photo reveal">
-        <img src="GiftBox.png" alt="Noir Box Co. matte-black gift box with gold-foil detail, open to show candle, sparkling wine, chocolate and a personalised welcome card" loading="lazy" width="1000" height="1250">
+        <img src="GiftBox.png" alt="Noir Box Co. matte-black gift box with embossed detail, open to show candle, sparkling wine, chocolate and a personalised welcome card" loading="lazy" width="1000" height="1250">
         <p class="photo-caption">"Welcome Home, The Andersons" — every card is personalised with your client's name and your words.</p>
       </div>
 
@@ -697,13 +697,14 @@
         <p class="info-tagline reveal">A matte-black luxury presentation box, personalised to your client and branded to your business — ready to hand over at the moment that matters most.</p>
 
         <ul class="contents-list">
-          <li class="reveal"><strong>Casa Blanca premium candle</strong> — luxury home fragrance</li>
-          <li class="reveal"><strong>Casa Blanca reed diffuser</strong> — pairs with the candle</li>
-          <li class="reveal"><strong>Mini Freixenet sparkling</strong> — ready to celebrate</li>
+          <li class="reveal"><strong>Premium candle</strong> — luxury home fragrance</li>
+          <li class="reveal"><strong>Reed diffuser</strong> — pairs with the candle</li>
+          <li class="reveal"><strong>Mini sparkling wine</strong> — alcoholic or non-alcoholic option</li>
           <li class="reveal"><strong>Koko Black / Yoko Bakes</strong> — almond &amp; sea-salt chocolate</li>
           <li class="reveal"><strong>Personalised welcome card</strong> — client name + your custom message</li>
           <li class="reveal"><strong>Optional logo on the lid</strong> — your agency or dealership branding</li>
-          <li class="reveal"><strong>Matte-black box, gold-foil detail</strong> — made to be photographed</li>
+          <li class="reveal"><strong>Customisable colours</strong> — box and text colours available to match your brand</li>
+          <li class="reveal"><strong>Matte-black box, embossed text detail</strong> — made to be photographed</li>
         </ul>
 
         <div class="alcohol-note reveal">
@@ -711,8 +712,8 @@
         </div>
 
         <div class="price-row reveal">
-          <div class="price-amount">$99</div>
-          <div class="price-sub">trial box · no minimum<br><span class="gold">$89/box</span> on standing orders of 5+ per month</div>
+          <div class="price-amount">$110</div>
+          <div class="price-sub">trial box · no minimum<br><span class="gold">$99/box</span> on standing orders of 5+ per month</div>
         </div>
 
         <a href="#order" class="btn-primary reveal">Order a Trial Box</a>
@@ -769,7 +770,7 @@
       <div class="step reveal">
         <div class="step-number" aria-hidden="true">01</div>
         <h3>Order a Trial Box</h3>
-        <p>One box, $99, no commitment. Tell us the occasion, the client's name, and the message you want inside the lid.</p>
+        <p>One box, $110, no commitment. Tell us the occasion, the client's name, and the message you want inside the lid.</p>
       </div>
       <div class="step reveal">
         <div class="step-number" aria-hidden="true">02</div>
@@ -779,7 +780,7 @@
       <div class="step reveal">
         <div class="step-number" aria-hidden="true">03</div>
         <h3>Set a Standing Order</h3>
-        <p>Loved the reaction? Lock in $89 per box from five boxes a month. We keep your branding on file and invoice monthly — gifting handled, forever.</p>
+        <p>Loved the reaction? Lock in $99 per box from five boxes a month. We keep your branding on file and invoice monthly — gifting handled, forever.</p>
       </div>
     </div>
   </div>
@@ -797,7 +798,7 @@
       <div class="pricing-card reveal">
         <h3>Trial Box</h3>
         <p class="pricing-for">First-time agencies</p>
-        <div class="pricing-amount">$99<span> one-off</span></div>
+        <div class="pricing-amount">$110<span> one-off</span></div>
         <p class="pricing-sub">One box · no minimum</p>
         <ul>
           <li>Full Standard Box contents</li>
@@ -812,8 +813,8 @@
         <div class="featured-tag">Most Popular</div>
         <h3>Standing Order</h3>
         <p class="pricing-for">Core recurring product</p>
-        <div class="pricing-amount">$89<span>/box</span></div>
-        <p class="pricing-sub">5+ boxes per month · save $10/box</p>
+        <div class="pricing-amount">$99<span>/box</span></div>
+        <p class="pricing-sub">5+ boxes per month · save $11/box</p>
         <ul>
           <li>Everything in the Trial Box</li>
           <li>Branded matte-black lid included</li>
@@ -822,20 +823,6 @@
           <li>Pause or adjust anytime</li>
         </ul>
         <a href="#order" class="btn-primary">Set Up a Standing Order</a>
-      </div>
-
-      <div class="pricing-card reveal">
-        <h3>Signature</h3>
-        <p class="pricing-for">Prestige dealerships · luxury property</p>
-        <div class="pricing-amount">$149<span>/box</span></div>
-        <p class="pricing-sub">The elevated tier</p>
-        <ul>
-          <li>Everything in the Standard Box</li>
-          <li>Premium wine upgrade</li>
-          <li>Larger candle</li>
-          <li>Built for six- and seven-figure handovers</li>
-        </ul>
-        <a href="#order" class="btn-outline">Enquire</a>
       </div>
 
       <div class="pricing-card reveal">
@@ -919,7 +906,7 @@
           </button>
         </h3>
         <div class="faq-panel" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden>
-          <p>No. The Trial Box is a single box at $99 — order one and see the reaction. Standing Order pricing of $89 per box applies from five boxes per month, and bulk or event orders are quoted individually.</p>
+          <p>No. The Trial Box is a single box at $110 — order one and see the reaction. Standing Order pricing of $99 per box applies from five boxes per month, and bulk or event orders are quoted individually.</p>
         </div>
       </div>
 
@@ -967,7 +954,7 @@
           </button>
         </h3>
         <div class="faq-panel" id="faq-a6" role="region" aria-labelledby="faq-q6" hidden>
-          <p>You set a monthly quantity — five boxes or more at $89 per box. We keep your branding and card templates on file, prepare boxes ahead of your settlements or deliveries, and invoice monthly. Adjust or pause anytime; there's no lock-in contract.</p>
+          <p>You set a monthly quantity — five boxes or more at $99 per box. We keep your branding and card templates on file, prepare boxes ahead of your settlements or deliveries, and invoice monthly. Adjust or pause anytime; there's no lock-in contract.</p>
         </div>
       </div>
     </div>
@@ -1023,9 +1010,8 @@
           <label for="of-tier">Which option? *</label>
           <select id="of-tier" name="tier" required>
             <option value="" selected disabled>Select…</option>
-            <option value="Trial Box — $99 one-off">Trial Box — $99 one-off</option>
-            <option value="Standing Order — $89/box (5+/mo)">Standing Order — $89/box (5+/mo)</option>
-            <option value="Signature — $149/box">Signature — $149/box</option>
+            <option value="Trial Box — $110 one-off">Trial Box — $110 one-off</option>
+            <option value="Standing Order — $99/box (5+/mo)">Standing Order — $99/box (5+/mo)</option>
             <option value="Bulk / Events — custom quote">Bulk / Events — custom quote</option>
           </select>
         </div>
@@ -1065,7 +1051,7 @@
     </div>
 
     <!-- TODO (owner): replace the href below with your live Stripe Payment Link
-         for the $99 Trial Box, then change the button text to "Pay for Trial Box now". -->
+         for the $110 Trial Box, then change the button text to "Pay for Trial Box now". -->
     <div class="pay-block reveal">
       <p>Trial boxes are invoiced once we confirm your order — no payment needed today.</p>
       <a class="btn-outline" href="https://buy.stripe.com/PLACEHOLDER" rel="noopener noreferrer">Order now — invoiced on confirmation</a>
